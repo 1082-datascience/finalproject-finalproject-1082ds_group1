@@ -1,10 +1,9 @@
-# Title of your final project
+# Breast Cancer Wisconsin (Diagnostic) Data Set
 
 ### Groups
 * 許育庭, 108753127
 * 吳映函, 108753102
 * 陳瑀芋, 108753144
-* ...
 
 ### Goal
 A breif introduction about your project, i.e., what is your goal?
