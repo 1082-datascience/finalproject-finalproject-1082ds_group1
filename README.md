@@ -1,4 +1,4 @@
-# Breast Cancer Wisconsin (Diagnostic) Data Set
+# Breast Cancer Wisconsin (Diagnostic) Data Set | Kaggle
 
 ### Groups
 * 許育庭, 108753127
@@ -6,19 +6,22 @@
 * 陳瑀芋, 108753144
 
 ### Goal
-A breif introduction about your project, i.e., what is your goal?
+
+Our goal is to create a model that will allow us to predict whether a breast cancer cell is benign or malignant.
 
 ### Demo 
-You should provide an example commend to reproduce your result
+
 ```R
-Rscript code/your_script.R --input data/training --output results/performance.tsv
+Rscript code/your_script.R --data data/training --output results/performance.tsv
 ```
-* any on-line visualization
+* any on-line visualization 
+
+*(use shiny)*
 
 ## Folder organization and its related information
 
 ### docs
-* Your presentation, 1072_datascience_FP_<yourID|groupName>.ppt/pptx/pdf, by **Jun. 25**
+* Your presentation, 1082_datascience_FP_group1.ppt/pptx/pdf, by **Jun. 16**
 * Any related document for the final project
   * papers
   * software user guide
@@ -45,8 +48,24 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 * What is the challenge part of your project?
 
 ## Reference
-* Code/implementation which you include/reference (__You should indicate in your presentation if you use code for others. Otherwise, cheating will result in 0 score for final project.__)
-* Packages you use
-* Related publications
+* https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r
+* https://www.kaggle.com/mirichoi0218/classification-breast-cancer-or-not-with-15-ml
+* https://www.kaggle.com/paultimothymooney/decision-trees-for-binary-classification-0-99
+* https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners/notebook
+* https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners/notebook
+* https://www.kaggle.com/bbloggsbott/feature-selection-correlation-and-p-value/data
+* Packages
+	* argparse
+	* corrplot
+	* caret
+	* rpart
+	* ROCR
+	* e1071
+	* randomForest
+	* Formula
+	* class
+	* highcharter
+	* gbm
+
 
 
