@@ -77,7 +77,7 @@ Rscript code/your_script.R --data data/training --output results/performance.tsv
 ### results
 * Which metric do you use 
   	* Using Accuracy, AUC, 'Positive' Class : Benign
-	* Null-model: 0.649, x
+	* Null-model: 0.5, x
 	* Decision tree: 0.9532, 0.945
 	* Naive Bayes: 0.9415, 0.932
 	* Random forest: 0.9766, 0.967
