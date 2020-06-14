@@ -16,7 +16,7 @@ Rscript code/your_script.R --data data/training --output results/performance.tsv
 ```
 * on-line visualization 
 * [Shiny Demo](https://leseryn.shinyapps.io/final_1/)
-![Shiny Demo png](titanic.png)
+![Shiny Demo png](shiny.png)
 
 ## Folder organization and its related information
 
