@@ -93,13 +93,13 @@ Rscript code/your_script.R --data data/training --output results/performance.tsv
 	* Try methods and compare the difference.
 
 ## Reference
-* https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r
-* https://www.kaggle.com/mirichoi0218/classification-breast-cancer-or-not-with-15-ml
-* https://www.kaggle.com/paultimothymooney/decision-trees-for-binary-classification-0-99
-* https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners/notebook
-* https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners/notebook
-* https://www.kaggle.com/bbloggsbott/feature-selection-correlation-and-p-value/data
-* https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/kernels
+* [Reference 1](https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r)
+* [Reference 2](https://www.kaggle.com/mirichoi0218/classification-breast-cancer-or-not-with-15-ml)
+* [Reference 3](https://www.kaggle.com/paultimothymooney/decision-trees-for-binary-classification-0-99)
+* [Reference 4](https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners/notebook)
+* [Reference 5](https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners/notebook)
+* [Reference 6](https://www.kaggle.com/bbloggsbott/feature-selection-correlation-and-p-value/data)
+* [Reference 7](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/kernels)
 * Packages
 	* argparse
 	* corrplot
