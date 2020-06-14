@@ -14,9 +14,8 @@ Our goal is to create a model that will allow us to predict whether a breast can
 ```R
 Rscript code/your_script.R --data data/training --output results/performance.tsv
 ```
-* any on-line visualization 
-
-*(use shiny)*
+* on-line visualization 
+* https://leseryn.shinyapps.io/final_1/
 
 ## Folder organization and its related information
 
@@ -49,22 +48,52 @@ Rscript code/your_script.R --data data/training --output results/performance.tsv
 		* Which is 10 features x 3 measurements = 30 features
 
 * Any preprocessing?
+  * No missing data.
   * In the beginning, we use covariance matrix to do the PCA, but the Scree-plots suggest that using a covariance matrix is not the correct approach for calculating the principal components.
   * We chose correlation matrix to try again.
 
 ### code
 
 * Which method do you use?
+	* Decision tree
+	* Naivebayes
+	* Knn
+	* Random forest
+	* Generalized boosted regression models
+	* Svm
+	* PCA
+
 * What is a null model for comparison?
-* How do your perform evaluation? ie. Cross-validation, or extra separated data
+	* Benign 0.6180905
+	* Malignant 0.3819095
+	* All guess benign
+
+* How do your perform evaluation?
+	* Cross-validation
+	* AUC
+	* ROC curve
+	* accuracy
+
 
 ### results
 
 * Which metric do you use 
-  * precision, recall, R-square
-* Is your improvement significant?
-* What is the challenge part of your project?
+  	* Using Accuracy, AUC, 'Positive' Class : Benign
+	* Null-model: 0.649, x
+	* Decision tree: 0.9532, 0.945
+	* Naive Bayes: 0.9415, 0.932
+	* Random forest: 0.9766, 0.967
+	* Knn: 0.9357, 0.916
+	* Svm: 0.9825, 0.983
+	* Gradient boosting model: 0.9649, 0.958
 
+* Is your improvement significant?
+	* Yes , from 0.64 to 0.983
+* What is the challenge part of your project?
+	* It is hard to select the feature, we make efforts to do that.
+	* We stil need to refer to others.
+
+	
 ## Reference
 * https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r
 * https://www.kaggle.com/mirichoi0218/classification-breast-cancer-or-not-with-15-ml
@@ -72,6 +101,7 @@ Rscript code/your_script.R --data data/training --output results/performance.tsv
 * https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners/notebook
 * https://www.kaggle.com/kanncaa1/statistical-learning-tutorial-for-beginners/notebook
 * https://www.kaggle.com/bbloggsbott/feature-selection-correlation-and-p-value/data
+* https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/kernels
 * Packages
 	* argparse
 	* corrplot
