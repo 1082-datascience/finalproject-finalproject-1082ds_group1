@@ -15,7 +15,8 @@ Our goal is to create a model that will allow us to predict whether a breast can
 Rscript code/your_script.R --data data/training --output results/performance.tsv
 ```
 * on-line visualization 
-* https://leseryn.shinyapps.io/final_1/
+* [Shiny Demo](https://leseryn.shinyapps.io/final_1/)
+![Shiny Demo png](titanic.png)
 
 ## Folder organization and its related information
 
@@ -26,7 +27,7 @@ Rscript code/your_script.R --data data/training --output results/performance.tsv
 ### data
 * Source
 	* Breast Cancer Wisconsin (Diagnostic) Data Set | Kaggle
-	* https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
+	* [Kaggle Breast Cancer Wisconsin](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data)
 * Input format
 	* One .csv file.
 	* Attribute Information:
