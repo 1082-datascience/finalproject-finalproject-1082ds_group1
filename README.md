@@ -24,7 +24,6 @@ Rscript code/your_script.R --data data/training --output results/performance.tsv
 *(remeber final ppt)*
 
 ### data
-
 * Source
 	* Breast Cancer Wisconsin (Diagnostic) Data Set | Kaggle
 	* https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
@@ -53,7 +52,6 @@ Rscript code/your_script.R --data data/training --output results/performance.tsv
   * We chose correlation matrix to try again.
 
 ### code
-
 * Which method do you use?
 	* Decision tree
 	* Naivebayes
@@ -76,7 +74,6 @@ Rscript code/your_script.R --data data/training --output results/performance.tsv
 
 
 ### results
-
 * Which metric do you use 
   	* Using Accuracy, AUC, 'Positive' Class : Benign
 	* Null-model: 0.649, x
