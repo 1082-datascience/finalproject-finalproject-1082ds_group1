@@ -92,8 +92,8 @@ Rscript code/your_script.R --data data/training --output results/performance.tsv
 * What is the challenge part of your project?
 	* It is hard to select the feature, we make efforts to do that.
 	* We stil need to refer to others.
+	* Try methods and compare the difference.
 
-	
 ## Reference
 * https://www.kaggle.com/shravank/predicting-breast-cancer-using-pca-lda-in-r
 * https://www.kaggle.com/mirichoi0218/classification-breast-cancer-or-not-with-15-ml
