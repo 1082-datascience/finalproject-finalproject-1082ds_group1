@@ -89,7 +89,7 @@ Rscript code/your_script.R --data data/training --output results/performance.tsv
 	* Yes , from 0.64 to 0.983
 * What is the challenge part of your project?
 	* It is hard to select the feature, we make efforts to do that.
-	* We stil need to refer to others.
+	* We still need to refer to others.
 	* Try methods and compare the difference.
 
 ## Reference
