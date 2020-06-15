@@ -21,8 +21,7 @@ Rscript code/your_script.R --data data/training --output results/performance.tsv
 ## Folder organization and its related information
 
 ### docs
-* Your presentation, 1082_datascience_FP_group1.ppt/pptx/pdf, by **Jun. 16**
-*(remeber final ppt)*
+* docs/1082_datascience_FP_group1.pptx
 
 ### data
 * Source
