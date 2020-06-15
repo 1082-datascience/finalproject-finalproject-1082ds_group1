@@ -43,7 +43,7 @@ Rscript code/your_script.R --data data/training --output results/performance.tsv
 			* h) concave points (number of concave portions of the contour)
 			* i) symmetry
 			* j) fractal dimension ("coastline approximation" - 1)
-		* The *(mean)*, *(standard error)* and *("worst" or largest)* (mean of the threelargest values) of these features were computed for each image, resulting in 30 features. For instance, field 3 is Mean Radius, field 13 is Radius SE, field 23 is Worst Radius.
+		* The *mean*, *standard error* and *"worst" or largest* (mean of the threelargest values) of these features were computed for each image, resulting in 30 features. For instance, field 3 is Mean Radius, field 13 is Radius SE, field 23 is Worst Radius.
 		* Which is 10 features x 3 measurements = 30 features
 
 * Any preprocessing?
