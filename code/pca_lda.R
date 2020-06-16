@@ -16,7 +16,7 @@ pdf("plot.pdf")
 
 # read data
 wdata <- read.csv(args$data, header = T, stringsAsFactors=F)
-wdata <- read.csv("data.csv", stringsAsFactors = F) 
+#wdata <- read.csv("data.csv", stringsAsFactors = F) 
 
 # remove null column and Id column
 wdata$X <- NULL
